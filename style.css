@@ -691,3 +691,47 @@ input {
 .contact .section-content {
   margin-top: 10px; /* 將間距從80px減少到30px */
 }
+
+/* App图标样式 */
+.app-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 调整contact区块的背景色和文字颜色 */
+.contact-info {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.contact-info .text-center p {
+  color: #666;
+  font-size: 15px;
+}
+
+/* 确保联系方式文字颜色正确 */
+.contact-info .contact-item .media-body p {
+  color: #333;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.mr-2 {
+  margin-right: 0.5rem;
+}
