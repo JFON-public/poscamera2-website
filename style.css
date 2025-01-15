@@ -321,10 +321,10 @@ h6 {
   width: 50px;
   height: 50px;
   border-radius: 100px;
-  color: rgb(142, 30, 252);
+  color: #f39d00;
   font-size: 18px;
   line-height: 50px;
-  border: 1px solid rgb(142, 30, 252);
+  border: 1px solid #f39d00;
 }
 .team {
   background: #fafafa;
@@ -464,14 +464,18 @@ input {
 .contact-info {
   padding: 2rem 2rem 1rem;
   border-radius: 8px;
-  background: #7a60ff;
-  background: linear-gradient(to left, #f39d00, #ff3401);
+  background: transparent;
+}
+.contact-info .media-body p,
+.contact-info .media-body a {
+  color: #333333 !important;
 }
 .contact-item {
   margin: 23px 0px;
 }
 .contact-item i {
   font-size: 20px;
+  color: #f39d00;
 }
 .contact-item p {
   line-height: 20px;
@@ -623,4 +627,57 @@ input {
   .footer-copy p {
     font-size: 10px;
   }
+}
+
+/* 默認狀態的按鈕樣式 */
+.btn-primary {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-primary i,
+.btn-primary .small {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* 滾動後的按鈕樣式 (當navbar添加nav-scroll類時) */
+.nav-scroll .btn-primary {
+  background-color: transparent;
+  border-color: #f39d00;
+  color: black;
+}
+
+.nav-scroll .btn-primary i,
+.nav-scroll .btn-primary .small {
+  color: black;
+}
+
+/* 懸停效果 */
+.btn-primary:hover {
+  background-color: #f39d00;
+  border-color: #f39d00;
+}
+
+.nav-scroll .btn-primary:hover {
+  background-color: #f39d00;
+  border-color: #f39d00;
+  color: white;
+}
+
+.nav-scroll .btn-primary:hover i,
+.nav-scroll .btn-primary:hover .small {
+  color: white;
+}
+
+/* Contact section background */
+.contact {
+  background-color: #f0f0f0;
+}
+
+/* 針對contact區塊特別調整間距 */
+.contact .section-content {
+  margin-top: 10px; /* 將間距從80px減少到30px */
 }
