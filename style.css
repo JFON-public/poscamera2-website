@@ -521,6 +521,16 @@ input {
 .footer-copy p {
   margin-bottom: 0px;
 }
+.footer-copy a {
+  color: #f39d00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-copy a:hover {
+  color: #ff3401;
+  text-decoration: underline;
+}
 @media all and (max-width: 991px) {
   .navbar .navbar-collapse {
     overflow: auto;
