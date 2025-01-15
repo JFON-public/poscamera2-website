@@ -655,14 +655,14 @@ input {
 
 /* 滾動後的按鈕樣式 (當navbar添加nav-scroll類時) */
 .nav-scroll .btn-primary {
-  background-color: transparent;
+  background-color: #f39d00;
   border-color: #f39d00;
   color: black;
 }
 
 .nav-scroll .btn-primary i,
 .nav-scroll .btn-primary .small {
-  color: black;
+  color: white;
 }
 
 /* 懸停效果 */
@@ -672,8 +672,8 @@ input {
 }
 
 .nav-scroll .btn-primary:hover {
-  background-color: #f39d00;
-  border-color: #f39d00;
+  background-color: #ff3401;
+  border-color: #ff3401;
   color: white;
 }
 
@@ -685,6 +685,18 @@ input {
 /* Contact section background */
 .contact {
   background-color: #f0f0f0;
+}
+
+/* 針對contact區塊的按鈕特別樣式 */
+.contact-info .btn-primary {
+  background-color: #f39d00;
+  border-color: #f39d00;
+  color: white;
+}
+
+.contact-info .btn-primary:hover {
+  background-color: #ff3401;
+  border-color: #ff3401;
 }
 
 /* 針對contact區塊特別調整間距 */
